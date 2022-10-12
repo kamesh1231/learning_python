@@ -1,8 +1,18 @@
-# get the 1st number
-x = 25
-# get the 2nd number
-y = 5
-# divide  both the numbers and get the results
-division = x / y
-# print the result
-print(division)
+print("enter first input")
+a = input()
+if int(a) < 0:
+    print("not valid")
+    exit()
+else:
+    print("first value is " + a)
+print("enter second input")
+b = input()
+if int(b) < 0:
+    print("not valid ")
+    exit()
+else:
+    print("second value is " + b)
+
+divide1 = int(a) / int(b)
+
+print(divide1)

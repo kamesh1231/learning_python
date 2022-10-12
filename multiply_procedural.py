@@ -1,8 +1,18 @@
-# get the 1st number
-x = 5
-# get the 2nd number
-y = 8
-# multipy  both the numbers and get the results
-Mult = x * y
+print("enter first input")
+a = input()
+if int(a) < 0:
+    print("not valid")
+    exit()
+else:
+    print("first value is " + a)
+print("enter second input")
+b = input()
+if int(b) < 0:
+    print("not valid ")
+    exit()
+else:
+    print("second value is " + b)
+
+Mult = int(a) * int(b)
 # print the result
 print(Mult)
