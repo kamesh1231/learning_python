@@ -12,7 +12,7 @@ else:
 print("enter second input")
 b = input()
 if int(b) < 0:
-    print("not valid")
+    print("not valid ")
 else:
     print("second value is " + b)
 
