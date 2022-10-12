@@ -5,9 +5,15 @@ def div(x, y):
 
 print("enter first input")
 a = input()
-print("first value is " + a)
+if int(a) < 0:
+    print("not valid")
+else:
+    print("first value is " + a)
 print("enter second input")
 b = input()
-print("second value is " + b)
+if int(b) < 0:
+    print("not valid")
+else:
+    print("second value is " + b)
 
 div(a, b)
