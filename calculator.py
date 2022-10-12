@@ -17,8 +17,8 @@ while True:
         b = float(input("enter the second number"))
 
         if inpt == '1':
-            print(add(a,b))
+            print(int(a) + int(b))
         elif inpt == '2':
-            print(subtract(a,b))
+            print(int(a) - int(b))
         else:
             print("invalid")
