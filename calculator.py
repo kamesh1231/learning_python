@@ -1,12 +1,12 @@
-
-print("select operation?")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiplication")
-print("4.Divide")
-print("5.Modulus")
-print("6.quotient")
-print("7.exponential")
+def calculator_test():
+    print("select operation?")
+    print("1.Add")
+    print("2.Subtract")
+    print("3.Multiplication")
+    print("4.Divide")
+    print("5.Modulus")
+    print("6.quotient")
+    print("7.exponential")
 
 inpt = input("enter choice(1/2/3/4/5/6/7): ")
 
@@ -112,3 +112,6 @@ elif inpt == '7':
     print(int(a) ** int(b))
 else:
     print("invalid")
+
+
+calculator_test()
