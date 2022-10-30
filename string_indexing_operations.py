@@ -15,4 +15,4 @@ if a % 2 == 1:
 elif a % 2 == 0:
     h5 = h1[int((len(h1)/2) - 1)]
     h6 = h1[int((len(h1) / 2) + 1)]
-    print("The middle character is : " + h5 + " and " + h6)
+    print("The middle character is : " + h5 + " and " + h6  )
