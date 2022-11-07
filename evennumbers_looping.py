@@ -6,7 +6,7 @@ if int(a) % 2 == 1:
     c = int(a) + 1
     i = 0
     while int(i) < int(b):
-        print(c,end=" ")
+        print(c)
         i+=1
         c+=2
 
@@ -14,6 +14,6 @@ elif int(a) % 2 == 0:
     c = int(a) + 2
     i = 0
     while int(i) < int(b):
-        print(c,end=" ")
+        print(c)
         i+=1
         c+=2
