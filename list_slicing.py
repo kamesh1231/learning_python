@@ -30,6 +30,7 @@ if a == 0:
     print("Second half of the slice is : " + str(j8))
 
 elif a == 1:
+
     b = (j2-1) / 2
     print("mid index is " + str(b))
     j6 = j1[0: int(b)]
