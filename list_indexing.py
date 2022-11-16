@@ -9,7 +9,6 @@ for i in range(0, n):
     h1.append(inpt)
 
 print(h1)
-
 print("your list is " +str(h1))
 h2 = h1[0]
 h3 = h1[len(h1)-1]
