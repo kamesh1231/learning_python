@@ -26,6 +26,7 @@ while inpt:
 
         print(profile_dict)
 
+
     elif c == 'No':
         inpt = False
 
